@@ -26,3 +26,9 @@
 |:----|:---------------------------------------------|:-----|
 | md5 | EncryptionUtils.md5(`字符串`) 或 `字符串`.md5() |      |
 
+
+[DimenUtils.kt](tools/src/main/java/com/kongqw/tools/DimenUtils.kt)
+
+|             | Kotlin                        | Java |
+|:------------|:------------------------------|:-----|
+| dp 转换为 px | DimenUtils.dp2px(context, 1f) |      |

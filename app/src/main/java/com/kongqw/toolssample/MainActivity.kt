@@ -6,6 +6,7 @@ import android.os.Bundle
 import com.kongqw.toolssample.activity.EncryptionUtilsSampleActivity
 import com.kongqw.toolssample.activity.InstallUtilsSampleActivity
 import com.kongqw.toolssample.activity.KeyboardUtilsSampleActivity
+import com.kongqw.toolssample.activity.TimeUtilsSampleActivity
 import com.kongqw.toolssample.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -30,6 +31,11 @@ class MainActivity : AppCompatActivity() {
         // EncryptionUtils
         mViewBinding.tvEncryptionUtils.setOnClickListener {
             startActivity(Intent(this, EncryptionUtilsSampleActivity::class.java))
+        }
+
+        // TimeUtils
+        mViewBinding.tvTimeUtils.setOnClickListener {
+            startActivity(Intent(this, TimeUtilsSampleActivity::class.java))
         }
     }
 }

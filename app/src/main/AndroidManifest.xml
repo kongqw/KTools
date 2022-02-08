@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KTools">
         <activity
+            android:name=".activity.TimeUtilsSampleActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity.EncryptionUtilsSampleActivity"
             android:exported="false" />
         <activity

@@ -2,7 +2,7 @@ package com.kongqw.toolssample.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.kongqw.tools.EncryptionUtils
+import com.kongqw.tools.DimenUtils
 import com.kongqw.tools.md5
 import com.kongqw.toolssample.databinding.ActivityEncryptionUtilsSampleBinding
 
@@ -24,6 +24,9 @@ class EncryptionUtilsSampleActivity : AppCompatActivity() {
 //            val md5 = EncryptionUtils.md5(inputContent)
 //            mViewBinding.tvOut.text = md5
         }
+
+
+        DimenUtils.dp2px(applicationContext,1f)
     }
 
 
