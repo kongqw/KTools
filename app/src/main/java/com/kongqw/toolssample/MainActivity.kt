@@ -3,6 +3,7 @@ package com.kongqw.toolssample
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.kongqw.toolssample.activity.EncryptionUtilsSampleActivity
 import com.kongqw.toolssample.activity.InstallUtilsSampleActivity
 import com.kongqw.toolssample.activity.KeyboardUtilsSampleActivity
 import com.kongqw.toolssample.databinding.ActivityMainBinding
@@ -26,12 +27,9 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, KeyboardUtilsSampleActivity::class.java))
         }
 
-//        ViewUtils
-//
-//        db2px()
-//
-//        mViewBinding.tv.toDb()
-//
-//        InstallUtils.isInstalled(applicationContext,"")
+        // EncryptionUtils
+        mViewBinding.tvEncryptionUtils.setOnClickListener {
+            startActivity(Intent(this, EncryptionUtilsSampleActivity::class.java))
+        }
     }
 }

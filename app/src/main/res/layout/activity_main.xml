@@ -33,6 +33,15 @@
                 android:gravity="center"
                 android:text="KeyboardUtils" />
 
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_EncryptionUtils"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:background="#EEEEEE"
+                android:gravity="center"
+                android:text="EncryptionUtils" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
     </ScrollView>
