@@ -48,5 +48,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
      implementation project(path: ':tools')
-//    implementation 'com.kongqw:ktools:1.0.0'
+//    implementation 'com.github.kongqw:KTools:9e73a606d7'
+//    implementation 'com.github.kongqw:KTools:9e73a606d7'
 }

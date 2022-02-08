@@ -10,7 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KTools">
         <activity
-            android:name="com.kongqw.toolssample.MainActivity"
+            android:name=".activity.KeyboardUtilsSampleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.InstallUtilsSampleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
